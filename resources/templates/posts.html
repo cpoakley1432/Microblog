@@ -1,0 +1,12 @@
+<html>
+<body>
+<form action= "create-post" method="post">
+    <input type = "text" placeholder="Enter your post" name="post"/>
+    <button type = "submit">Submit</button><br>
+Posts by {{name}}<br>
+{{#posts}}
+{{text}}<br>
+{{/posts}}
+</form>
+</body>
+</html>
